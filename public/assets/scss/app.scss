@@ -1,0 +1,71 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "react-toastify/dist/ReactToastify.css";
+
+@import "./icoicon/icons";
+@import "./themify.scss";
+@import "./style.scss";
+@import "./responsive.scss";
+@import "./react-plugin.scss";
+
+//Filepond
+@import "filepond/dist/filepond.min.css";
+@import "filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css";
+
+//Dropzone
+@import "../scss/pages/dropzone";
+
+@import "./whether-icon/whether-icon";
+
+//leaflet map
+@import "leaflet/dist/leaflet.css";
+
+//quill editor
+@import "react-quill-new/dist/quill.snow.css";
+@import "react-quill-new/dist/quill.bubble.css";
+
+//simple mde editor
+@import "easymde/dist/easymde.min.css";
+
+//Gallery
+@import "photoswipe/dist/photoswipe.css";
+
+//calendar
+@import "react-calendar/dist/Calendar.css";
+
+// react date-piker
+@import "react-datepicker/dist/react-datepicker.css";
+
+//font awesome
+@import "font-awesome/scss/font-awesome.scss";
+
+//swiper
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+@import "swiper/css/grid";
+@import "swiper/css/effect-fade";
+
+//Typeahead
+@import "react-bootstrap-typeahead/css/Typeahead.css";
+
+//React-Slick
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+//flag-icons
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+
+// image cropper css
+@import "react-image-crop/src/ReactCrop.scss";
+
+//simple bar
+@import "simplebar/dist/simplebar.css";
+
+//tour
+@import "@sjmc11/tourguidejs/src/scss/tour.scss";
+
+//treeview
+@import "@progress/kendo-theme-default/dist/all.css";
+
+// react-perfect-scrollbar
+@import "react-perfect-scrollbar/dist/css/styles.css";

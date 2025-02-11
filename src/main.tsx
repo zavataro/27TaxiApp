@@ -8,6 +8,10 @@ import '@aws-amplify/ui-react/styles.css';
 import { Amplify } from "aws-amplify";
 import outputs from "../amplify_outputs.json";
 
+import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { store } from './ReduxToolkit/Store';
+
 I18n.putVocabularies(translations);
 I18n.setLanguage('pt-br');
 
@@ -44,12 +48,14 @@ const components = {
 
 Amplify.configure(outputs);
 
-
-
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Authenticator components={components}>
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </Authenticator>
   </React.StrictMode>
 );
+
+reportWebVitals();

@@ -1,15 +1,13 @@
-
-import { useAuthenticator } from '@aws-amplify/ui-react';
+import Routers from './Routes';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
-  const { signOut } = useAuthenticator();
-
+  
   return (
-    <main>
-      <h1>Seja Bem vindo</h1>
-      <h1>ERRO AO CARREGAR INFORMAÇÕES</h1>
-      <button onClick={signOut}>Sair</button>
-    </main>
+    <>
+      <Routers />
+      <ToastContainer />
+    </>
   );
 }
 
