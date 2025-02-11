@@ -1,4 +1,3 @@
-import React from 'react'
 import { ProgressBar } from '../../../../../AbstractElements'
 import { referralProgressData } from '../../../../../Data/Dashboard/Default'
 

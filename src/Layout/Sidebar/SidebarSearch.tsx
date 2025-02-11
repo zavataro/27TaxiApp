@@ -1,4 +1,3 @@
-import React from 'react'
 import { Input, InputGroup, InputGroupText } from 'reactstrap'
 import { useSelector, useDispatch } from 'react-redux';
 import SvgIcon from '../../Utils/CommonComponents/CommonIcons/CommonSvgIcons'

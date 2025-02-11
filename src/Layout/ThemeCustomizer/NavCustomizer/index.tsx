@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavCustomizerProps } from '../../../Types/Layout.type'
 import { Nav, NavLink } from 'reactstrap'
 import { Image } from '../../../AbstractElements'

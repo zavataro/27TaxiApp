@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Row } from 'reactstrap'
 import ProfileMail from './ProfileMail'
 import { Link } from 'react-router-dom'

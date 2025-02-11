@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import { Card, CardBody, Col } from 'reactstrap'
 import DropdownWithHeader from '../../../../../Utils/CommonComponents/DropdownWithHeader'
 import { UpcomingTransaction } from '../../../../../Utils/Constants'

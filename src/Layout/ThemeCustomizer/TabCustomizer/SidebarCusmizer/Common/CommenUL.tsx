@@ -1,4 +1,3 @@
-import React from 'react'
 import { LI, UL } from '../../../../../AbstractElements'
 
 export default function CommenUL() {

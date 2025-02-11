@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, Col, Row } from 'reactstrap'
 import DiscountReport from './DiscountReport'
 import CustomerOrder from './CustomerOrder'

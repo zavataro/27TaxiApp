@@ -163,7 +163,7 @@ export const barChart: ApexOptions = {
     colors: ['#009DB5']
 }
 
-export var columnChart: ApexOptions = {
+export let columnChart: ApexOptions = {
     chart: {
         height: 350,
         type: 'bar',
@@ -217,12 +217,12 @@ export var columnChart: ApexOptions = {
     colors: ['#009DB5', '#F94C8E', '#83BF6E']
 }
 
-function generateData(baseval: any, count: any, yrange: any) {
-    var i = 0;
-    var series = [];
+function generateData(baseval: any, count: any, yrange: { min: any, max: any }) {
+    let i = 0;
+    const series = [];
     while (i < count) {
-        var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
-        var z = Math.floor(Math.random() * (75 - 15 + 1)) + 15;
+        const y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min; 
+        const z = Math.floor(Math.random() * (75 - 15 + 1)) + 15;
 
         series.push([baseval, y, z]);
         baseval += 86400000;
@@ -231,7 +231,7 @@ function generateData(baseval: any, count: any, yrange: any) {
     return series;
 }
 
-export var bubbleChart: ApexOptions = {
+export let bubbleChart: ApexOptions = {
     chart: {
         height: 350,
         type: 'bubble',
@@ -295,7 +295,7 @@ export var bubbleChart: ApexOptions = {
     colors: ['#009DB5', '#F94C8E', '#83BF6E', '#F99B0D']
 }
 
-export var steplineChart: ApexOptions = {
+export let steplineChart: ApexOptions = {
     chart: {
         type: 'line',
         height: 350,
@@ -441,7 +441,7 @@ export const lineWithAnnotationChart: ApexOptions = {
     colors: ['#009DB5']
 }
 
-export var pieChart: ApexOptions = {
+export let pieChart: ApexOptions = {
     chart: {
         width: 380,
         type: 'pie',
@@ -462,7 +462,7 @@ export var pieChart: ApexOptions = {
     colors: ['#009DB5', '#F94C8E', "#83BF6E", "#25C5F7", "#F99B0D",]
 }
 
-export var donutChart: ApexOptions = {
+export let donutChart: ApexOptions = {
     chart: {
         width: 380,
         type: 'donut',
@@ -482,7 +482,7 @@ export var donutChart: ApexOptions = {
     colors: ["#F6463A", "#F99B0D", "#009DB5", "#83BF6E", "#25C5F7"]
 }
 
-export var mixedChart: ApexOptions = {
+export let mixedChart: ApexOptions = {
     chart: {
         height: 350,
         type: 'line',
@@ -554,7 +554,7 @@ export var mixedChart: ApexOptions = {
     },
 }
 
-export var candleStickChart: ApexOptions = {
+export let candleStickChart: ApexOptions = {
     chart: {
         height: 350,
         type: 'candlestick',
@@ -831,7 +831,7 @@ export var candleStickChart: ApexOptions = {
     colors: ['#000000']
 }
 
-export var radarCharts: ApexOptions = {
+export let radarCharts: ApexOptions = {
     chart: {
         height: 350,
         type: 'radar',
@@ -886,7 +886,7 @@ export var radarCharts: ApexOptions = {
     },
 }
 
-export var radialBarChart: ApexOptions = {
+export let radialBarChart: ApexOptions = {
     chart: {
         height: 350,
         type: 'radialBar',
@@ -904,7 +904,7 @@ export var radialBarChart: ApexOptions = {
                     show: true,
                     label: 'Total',
                     formatter: function (w) {
-                        return "249"
+                        return w
                     }
                 }
             }

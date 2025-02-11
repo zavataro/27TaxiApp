@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody } from 'reactstrap'
 import { ActivitiesTitle, Href } from '../../../Constants'
 import { Badges, H6, LI, UL } from '../../../../AbstractElements'

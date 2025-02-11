@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col } from 'reactstrap'
 import { H2, Image, P } from '../../../../../AbstractElements'
 import { dynamicImage } from '../../../../../Utils'

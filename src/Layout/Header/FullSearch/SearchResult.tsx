@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { SearchResultProp, SidebarItemType } from '../../../Types/Layout.type'
 import { Emptysearch } from '../../../Utils/Constants'

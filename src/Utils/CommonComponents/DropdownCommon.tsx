@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ButtonGroup, Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from 'reactstrap';
 import { Href } from '../Constants';
 import { DropdownCommonProp } from '../../Types/Buttons.type';

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useDispatch } from 'react-redux';
 import ConfigDB from '../../../../Config/ThemeConfig';
 import { addSidebarIconType } from '../../../../ReduxToolkit/Reducers/Layout/ThemeCustomizerReducer';

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { ProfileHeadProps } from '../../../Types/BonusUi.type'
 import { H5, Image } from '../../../AbstractElements'

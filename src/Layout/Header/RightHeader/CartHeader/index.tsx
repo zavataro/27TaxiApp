@@ -1,4 +1,3 @@
-import React from 'react'
 import { Badges, H6, LI } from '../../../../AbstractElements'
 import SvgIcon from '../../../../Utils/CommonComponents/CommonIcons/CommonSvgIcons'
 import { Cart } from '../../../../Utils/Constants'

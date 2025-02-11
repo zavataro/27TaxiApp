@@ -1,4 +1,3 @@
-import React from 'react'
 import { Badges, H6, Image, LI, P, UL } from '../../../AbstractElements'
 import SvgIcon from '../../../Utils/CommonComponents/CommonIcons/CommonSvgIcons'
 import { CheckAll, Href, Notifications } from '../../../Utils/Constants'

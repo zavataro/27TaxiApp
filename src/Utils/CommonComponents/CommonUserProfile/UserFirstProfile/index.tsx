@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, Col } from 'reactstrap'
 import ProfileDetail from './ProfileDetail'
 import { Image } from '../../../../AbstractElements'

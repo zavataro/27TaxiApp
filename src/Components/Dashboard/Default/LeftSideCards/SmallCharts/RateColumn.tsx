@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, Col } from 'reactstrap'
 import CardHeaderSpan from '../../../../../Utils/CommonComponents/CardHeaderSpan'
 import { SatisfactionRateTitle } from '../../../../../Utils/Constants'

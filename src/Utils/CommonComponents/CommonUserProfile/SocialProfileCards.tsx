@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { Card, CardBody, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';

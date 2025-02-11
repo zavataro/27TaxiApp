@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { NavCustomizerProps } from '../../../Types/Layout.type';
 import { TabContent, TabPane } from 'reactstrap';
 import { Btn, H5, P } from '../../../AbstractElements';

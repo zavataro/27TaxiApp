@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, CardHeader, Col } from 'reactstrap'
 import { TrendingUp } from 'react-feather'
 import { ActiveProjects } from '../../../../Utils/Constants'

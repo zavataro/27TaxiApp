@@ -1,4 +1,3 @@
-import React from 'react'
 import { BookMarkContainerProps } from '../../../../Types/Layout.type';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../../../ReduxToolkit/Store';

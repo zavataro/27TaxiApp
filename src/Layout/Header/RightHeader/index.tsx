@@ -1,4 +1,3 @@
-import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { LI, UL } from '../../../AbstractElements'
 import SvgIcon from '../../../Utils/CommonComponents/CommonIcons/CommonSvgIcons'

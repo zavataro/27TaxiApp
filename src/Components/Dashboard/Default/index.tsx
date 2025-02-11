@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container, Row } from 'reactstrap'
 import LeftSideCards from './LeftSideCards'
 import RightSideCards from './RightSideCards'

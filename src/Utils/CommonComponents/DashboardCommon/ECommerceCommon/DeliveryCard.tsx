@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody } from 'reactstrap'
 import DropdownWithHeader from '../../DropdownWithHeader'
 import { ProductDelivery } from '../../../Constants'

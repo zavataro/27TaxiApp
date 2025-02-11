@@ -1,4 +1,3 @@
-import React from 'react'
 import LayoutType from './LayoutType'
 import SidebarType from './SidebarType'
 import SideBarIconType from './SideBarIconType'

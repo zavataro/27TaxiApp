@@ -1,4 +1,3 @@
-import React from 'react'
 import { Input, InputGroup, InputGroupText } from 'reactstrap'
 import { Badges, H6, Image, LI, P, UL } from '../../../AbstractElements'
 import SvgIcon from '../../../Utils/CommonComponents/CommonIcons/CommonSvgIcons'

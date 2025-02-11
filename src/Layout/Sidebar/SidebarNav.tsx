@@ -1,4 +1,4 @@
-import React, { Fragment, useMemo, useState } from 'react'
+import { Fragment, useMemo, useState } from 'react'
 import { useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { H6, LI, UL } from '../../AbstractElements'

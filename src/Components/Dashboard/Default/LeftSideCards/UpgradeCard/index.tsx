@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardHeader, Col, Row } from 'reactstrap'
 import { H2, Image, P } from '../../../../../AbstractElements'
 import { Link } from 'react-router-dom'

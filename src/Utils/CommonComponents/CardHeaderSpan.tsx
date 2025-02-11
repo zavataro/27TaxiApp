@@ -1,4 +1,3 @@
-import React from 'react'
 import { CardHeader } from 'reactstrap'
 import { CardHeaderSpanType } from '../../Types/CommonComponent.type'
 import { H2, H5 } from '../../AbstractElements'

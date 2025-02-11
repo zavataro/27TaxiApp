@@ -1,4 +1,3 @@
-import React from 'react'
 import { H4, Image } from '../../AbstractElements'
 import { dynamicImage } from '../../Utils'
 import { WadeWarren } from '../../Utils/Constants'

@@ -1,5 +1,3 @@
-import { ApexOptions } from "apexcharts";
-
 export interface CustomTeamProps {
     data: string[];
     extra: number;

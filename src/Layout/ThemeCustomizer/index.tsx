@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { CallbackNavType } from '../../Types/Layout.type';
 import NavCustomizer from './NavCustomizer';
 import TabCustomizer from './TabCustomizer';

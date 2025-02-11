@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import { CardHeader } from 'reactstrap'
 import { CommonCardHeaderProps } from '../../Types/CommonComponent.type'
 import { H2, P } from '../../AbstractElements'

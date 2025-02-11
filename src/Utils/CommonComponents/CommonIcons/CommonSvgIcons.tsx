@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function SvgIcon(props: any) {
     return (
         <svg className={props.className} style={props.style} onClick={props.onClick}>

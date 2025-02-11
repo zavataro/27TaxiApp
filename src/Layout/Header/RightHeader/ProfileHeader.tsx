@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { H4, Image, LI, UL } from '../../../AbstractElements'
 import { dynamicImage } from '../../../Utils'

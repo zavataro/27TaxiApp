@@ -1164,10 +1164,7 @@ export const optionsCandlestick: ApexOptions = {
         custom: [
             function ({ seriesIndex, dataPointIndex, w }) {
                 return w.globals.series[seriesIndex][dataPointIndex];
-            },
-            function ({ seriesIndex, dataPointIndex, w }) {
-                return "";
-            },
+            }
         ],
     },
     xaxis: {
@@ -1201,11 +1198,11 @@ export const optionsCandlestick: ApexOptions = {
     ],
 };
 
-var trigoStrength = 3;
-var iteration = 11;
+const trigoStrength = 3;
+const iteration = 11;
 
 function getRandom(): number {
-    var i = iteration;
+    const i = iteration;
     return (
         (Math.sin(i / trigoStrength) * (i / trigoStrength) +
             i / trigoStrength +
@@ -1214,12 +1211,12 @@ function getRandom(): number {
     );
 }
 
-function generateMinuteWiseTimeSeries(baseval: number, count: number, yrange: { min: number; max: number }) {
-    var i = 0;
-    var series = [];
+function generateMinuteWiseTimeSeries(baseval: number, count: number) {
+    let i = 0;
+    const series = [];
     while (i < count) {
-        var x = baseval;
-        var y =
+        const x = baseval;
+        const y =
             (Math.sin(i / trigoStrength) * (i / trigoStrength) +
                 i / trigoStrength +
                 1) *
@@ -1255,11 +1252,7 @@ export const optionsColumn: ApexOptions = {
             type: "column",
             data: generateMinuteWiseTimeSeries(
                 new Date("12/12/2016 00:20:00").getTime(),
-                12,
-                {
-                    min: 10,
-                    max: 110,
-                }
+                12
             ),
         },
         {
@@ -1405,22 +1398,14 @@ export const optionsLine: ApexOptions = {
             name: "Running",
             data: generateMinuteWiseTimeSeries(
                 new Date("12/12/2016 00:20:00").getTime(),
-                12,
-                {
-                    min: 30,
-                    max: 110,
-                }
+                12
             ),
         },
         {
             name: "Waiting",
             data: generateMinuteWiseTimeSeries(
                 new Date("12/12/2016 00:20:00").getTime(),
-                12,
-                {
-                    min: 30,
-                    max: 110,
-                }
+                12
             ),
         },
     ],
@@ -1521,13 +1506,13 @@ export const optionsSales: ApexOptions = {
 
 // user chart
 function generateData(baseval: number, count: number, yrange: { min: number; max: number }) {
-    var i = 0;
-    var series = [];
+    let i = 0;
+    const series = [];
     while (i < count) {
-        var x = Math.floor(Math.random() * (750 - 1 + 1)) + 1;
-        var y =
+        const x = Math.floor(Math.random() * (750 - 1 + 1)) + 1;
+        const y =
             Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
-        var z = Math.floor(Math.random() * (75 - 15 + 1)) + 15;
+        const z = Math.floor(Math.random() * (75 - 15 + 1)) + 15;
 
         series.push([x, y, z]);
         baseval += 86400000;

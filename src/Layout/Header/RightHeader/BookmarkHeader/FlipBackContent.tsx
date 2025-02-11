@@ -1,4 +1,3 @@
-import React from 'react'
 import { Input } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import { LI } from '../../../../AbstractElements'

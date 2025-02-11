@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Row } from 'reactstrap';
 import { useDispatch,useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';

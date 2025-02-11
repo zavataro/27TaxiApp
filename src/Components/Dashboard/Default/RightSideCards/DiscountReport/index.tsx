@@ -1,4 +1,3 @@
-import React from 'react'
 import { CardBody, Col } from 'reactstrap'
 import ReactApexChart from 'react-apexcharts'
 import DropdownWithHeader from '../../../../../Utils/CommonComponents/DropdownWithHeader'

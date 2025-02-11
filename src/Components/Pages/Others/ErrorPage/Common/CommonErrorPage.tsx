@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Container } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import { Btn, H2, Image, P } from '../../../../../AbstractElements'

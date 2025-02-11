@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { LI, UL } from '../../../../../AbstractElements'
 import { referralListData } from '../../../../../Data/Dashboard/Default'

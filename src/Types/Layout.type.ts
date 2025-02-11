@@ -71,15 +71,14 @@ export interface FlipBackContentProps {
 
 export interface BookmarkListProps {
     bookmarkList: SidebarItemType[];
-};
+}
 export interface CallbackNavType {
     (select: string, open: boolean): void;
 }
 export interface NavCustomizerProps {
     callbackNav: CallbackNavType;
     selected: string;
-};
-
+}
 export interface ConfigurationProps {
     modal: boolean;
     toggle: () => void;

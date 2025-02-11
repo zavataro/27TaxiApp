@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -22,7 +22,7 @@ export default function SidebarSubMenu({ menu, setActiveMenu, activeMenu, level 
     if (!pinedMenu.includes(value)) {
       dispatch(setPinedMenu([...pinedMenu, value]));
     } else {
-      let filterMenu = pinedMenu.filter((item) => item !== value);
+      const filterMenu = pinedMenu.filter((item) => item !== value);
       dispatch(setPinedMenu(filterMenu));
     }
   };
@@ -30,7 +30,7 @@ export default function SidebarSubMenu({ menu, setActiveMenu, activeMenu, level 
     return location.pathname === path ? true : "";
   };
   function shouldSetActive({ item }: { item: SidebarItemType }): boolean {
-    var returnValue = false;
+    let returnValue = false;
     if (item?.url === location.pathname) {
       returnValue = true;
     }
@@ -44,9 +44,9 @@ export default function SidebarSubMenu({ menu, setActiveMenu, activeMenu, level 
   }
   useEffect(() => {
     menu.forEach((item) => {
-      let gotValue = shouldSetActive({ item });
+      const gotValue = shouldSetActive({ item });
       if (gotValue) {
-        let temp = [...activeMenu];
+        const temp = [...activeMenu];
         temp[level] = item.title;
         setActiveMenu(temp);
       }

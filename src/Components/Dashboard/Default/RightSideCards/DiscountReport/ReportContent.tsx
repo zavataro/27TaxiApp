@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { H5, H6, LI, ProgressBar, UL } from '../../../../../AbstractElements'
 import { Report } from '../../../../../Utils/Constants'
 import { reportContentData } from '../../../../../Data/Dashboard/Default'

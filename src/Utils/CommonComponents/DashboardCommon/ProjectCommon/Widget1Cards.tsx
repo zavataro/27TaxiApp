@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, CardHeader, Col } from 'reactstrap'
 import { TrendingUp } from 'react-feather'
 import ReactApexChart from 'react-apexcharts'

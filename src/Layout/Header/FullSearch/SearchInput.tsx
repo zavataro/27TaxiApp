@@ -1,4 +1,3 @@
-import React from 'react'
 import { Input } from 'reactstrap'
 import { X } from 'react-feather';
 import { useSelector,useDispatch } from 'react-redux';

@@ -1,4 +1,3 @@
-import React from 'react'
 import { CardBody, CardHeader, Col, FormGroup, Input } from 'reactstrap'
 import { Badges, H2, H6, LI, UL } from '../../../../../AbstractElements'
 import { Href, ToDoList } from '../../../../../Utils/Constants'

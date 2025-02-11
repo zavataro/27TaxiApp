@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, CardHeader, Col } from 'reactstrap'
 import DataTable from 'react-data-table-component'
 import { H2 } from '../../../../../AbstractElements'

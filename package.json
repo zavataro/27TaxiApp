@@ -40,6 +40,7 @@
     "aws-amplify": "^6.6.6",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.7",
     "classnames": "^2.5.1",
     "cleave.js": "^1.6.0",
     "easymde": "^2.18.0",

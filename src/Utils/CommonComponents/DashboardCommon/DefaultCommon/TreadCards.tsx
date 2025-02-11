@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, Col, Row } from 'reactstrap'
 import SvgIcon from '../../CommonIcons/CommonSvgIcons'
 import { H3 } from '../../../../AbstractElements'

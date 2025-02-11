@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, Col } from 'reactstrap'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useSelector } from 'react-redux';
 import ConfigDB from '../../../../Config/ThemeConfig'
 import { RootState } from '../../../../ReduxToolkit/Store';

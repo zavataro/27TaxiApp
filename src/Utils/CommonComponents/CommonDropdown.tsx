@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from 'reactstrap';
 import SvgIcon from './CommonIcons/CommonSvgIcons';
 import { Href } from '../Constants';

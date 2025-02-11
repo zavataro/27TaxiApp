@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, Col } from 'reactstrap'
 import { TrendingUp } from 'react-feather'
 import DropdownWithHeader from '../../../../../Utils/CommonComponents/DropdownWithHeader'

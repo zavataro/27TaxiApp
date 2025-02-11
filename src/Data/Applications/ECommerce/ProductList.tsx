@@ -1,11 +1,8 @@
 import { TableColumn } from "react-data-table-component";
 import { FormGroup, Input } from "reactstrap";
-import { Link } from "react-router-dom";
 import { ProductListType } from "../../../Types/ECommerce.type";
 import { Badges, Image, P } from "../../../AbstractElements";
 import { dynamicImage } from "../../../Utils";
-import SvgIcon from "../../../Utils/CommonComponents/CommonIcons/CommonSvgIcons";
-
 export const productListTableData: ProductListType[] = [
     {
         imageSrc: 'product/product-categories/laptop.png',
@@ -341,7 +338,7 @@ export const productListColumns: TableColumn<ProductListType>[] = [
             </div>
         ),
     },
-    {
+    /*{
         name: 'Action',
         cell: (row) => (
             <div className="product-action">
@@ -352,5 +349,5 @@ export const productListColumns: TableColumn<ProductListType>[] = [
             </div>
         ),
         sortable: true,
-    },
+    },*/
 ];

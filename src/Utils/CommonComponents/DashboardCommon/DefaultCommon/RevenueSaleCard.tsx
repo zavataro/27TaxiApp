@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, CardBody, CardHeader } from 'reactstrap'
 import ReactApexChart from 'react-apexcharts'
 import { RevenueSaleCardProps } from '../../../../Types/Dashboard.type'

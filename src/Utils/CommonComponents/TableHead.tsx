@@ -1,4 +1,3 @@
-import React from 'react'
 import { TableHeaderProp } from '../../Types/CommonComponent.type'
 
 export default function TableHead({headeData}: TableHeaderProp) {

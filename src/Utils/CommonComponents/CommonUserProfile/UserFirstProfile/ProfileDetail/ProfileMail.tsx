@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { H6 } from '../../../../../AbstractElements'
 import { BOD, Email } from '../../../../Constants'
