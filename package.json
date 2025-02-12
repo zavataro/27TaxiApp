@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.9.1",
+    "@aws-amplify/ui-react": "^6.5.5",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
@@ -56,7 +56,7 @@
     "leaflet": "^1.9.4",
     "photoswipe": "^5.4.4",
     "prism-react-renderer": "^2.4.1",
-    "react": "^19.0.0",
+    "react": "^18.2.0",
     "react-apexcharts": "^1.7.0",
     "react-bootstrap-typeahead": "^6.4.0",
     "react-calendar": "^5.1.0",
@@ -65,7 +65,7 @@
     "react-countup": "^6.5.3",
     "react-data-table-component": "^7.6.2",
     "react-datepicker": "^7.6.0",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.2.0",
     "react-download-link": "^2.3.0",
     "react-dropzone": "^14.3.5",
     "react-feather": "^2.0.10",
@@ -123,7 +123,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "tsx": "^4.7.2",
-    "typescript": "^5.1.6",
+    "typescript": "^5.4.5",
     "vite": "^5.4.10"
   }
 }
